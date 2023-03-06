@@ -1,0 +1,120 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.tablehead{
+  color: white;
+  background-color: black;
+  border-collapse: collapse;
+  padding: 10px 5px;
+  font-weight: bolder;
+}
+.table,.tablecell{
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.table{
+  border: 1px solid black;
+}
+
+.tablecell{
+  padding: 10px 15px;
+
+}
+.tableheadcell{
+  padding: 10px 15px;
+  font-weight: bolder;
+}
+.delete{
+  padding: 5px 15px;
+  border-radius: 5px;
+ color: white;
+ background-color: rgb(220,53,69);
+}
+.updatebtn{
+  background-color:rgb(0,123,255);
+padding: 5px 15px;
+  border-radius: 5px;
+ color: white;
+}
+.Add{
+  margin-top: 20px;
+  background-color: rgb(40,167,69);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.change{
+  margin-top: 20px;
+  background-color:rgb(0,123,255);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+input{
+  padding: 10px;
+  margin: 5px 10px;
+}
+.create{
+  background-color: rgb(40,167,69);
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+.check{
+  margin-left: 0;
+  padding: 60px;
+  margin-right: 5px;
+}
+.align{
+  display: flex;
+}
+button:hover{
+  cursor: pointer;
+}
+
+
+@media  screen and (max-width:550px){
+  
+  .table{
+    margin: 20px auto;
+    font-size: 12px;
+  }
+
+  .tablecell{
+    padding: 3px;
+  
+  }
+  .tableheadcell{
+    padding: 3px;
+    font-weight: lighter;
+  }
+  .delete{
+    padding: 2px;
+    border-radius: 3px;
+   
+  }
+  .updatebtn{
+    border-radius: 3px;
+    
+  padding: 2px; 
+  }
+  .Add{
+  
+    padding: 5px 10px ;
+  
+  }
+  
+}
